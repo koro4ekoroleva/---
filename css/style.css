@@ -1,0 +1,96 @@
+@font-face {
+    font-family: Oswald-VariableFont_wght;
+    src: url(../font/Oswald-VariableFont_wght.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Oswald-VariableFont_wght;
+    text-align: center;
+    font-size: 16px;
+    color: #7581a1;
+}
+h1{
+    font-size: 80px;
+    font-weight: 600;
+    color: #192b59;
+}
+ul{
+    text-transform: uppercase;
+}
+a{
+    text-decoration: none;
+}
+button{
+    border-style: none;
+}
+
+h2{
+    text-transform:unset;
+}
+
+
+
+.logo{
+    display: inline;
+}
+.nav {
+    font-size: 12px;
+    font-weight: 700;
+    color: #6e7ea9;
+    text-transform: uppercase;
+}
+.nav li{
+    display: inline;
+}
+.btn_free{
+    color: #fff;
+    font-weight: 400;
+    background-color: #1085e4;
+    border-radius: 15px;
+    padding: 8px 25px;
+}
+
+.now{
+    color: #fff;
+    font-size: 16px;
+    background-color: #1085e4;
+    border-radius: 30px;
+    padding: 15px 30px;
+}
+
+.more{
+    color: #6e7ea9;
+    font-size: 16px;
+    background-color: #d3def5;
+    border-radius: 30px;
+    padding: 15px 30px;
+}
+.grid h2{
+    font-size: 40px;
+    font-weight: 700;
+    color: #192b59;
+}
+
+.grid h2 span{
+    font-size: 14px;
+    color: #1085e4;
+    display: block;
+}
+.grid-item{
+    font-size: 20px;
+    font-weight: 600;
+    color: #192b59;
+}
+
+.page-header a+ul{
+    color: #1085e4;
+}
+
+.sponsor li{
+    display: inline;
+}
