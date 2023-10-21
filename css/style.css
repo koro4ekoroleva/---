@@ -43,33 +43,55 @@ h2{
     font-weight: 700;
     color: #6e7ea9;
     text-transform: uppercase;
+    list-style-type: none;
+    
 }
 .nav li{
     display: inline;
 }
+
+.now{
+    color: #fff;
+    background-color: #1085e4;
+    font-weight: 700;
+    font-size: 12px;
+    border-radius: 30px;
+    padding: 23px 42px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+ 
+.now:hover{
+    background-color: #fff;
+    color: #1085e4;
+    border: 1px solid #1085e4;
+}
+
+.more{
+    color: #7e8bae;
+    font-size: 12px;
+    font-weight: 700;
+    background-color: #cbdbe8;
+    border-radius: 30px;
+    padding: 21px 42px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.more:hover{
+    border: 1px solid #cbdbe8;
+    background-color: #fff;
+}
+
 .btn_free{
     color: #fff;
     font-weight: 400;
     background-color: #1085e4;
-    border-radius: 15px;
-    padding: 8px 25px;
+    border-radius: 30px;
+    padding: 23px 57px;
+    letter-spacing: 0.7px;
 }
 
-.now{
-    color: #fff;
-    font-size: 16px;
-    background-color: #1085e4;
-    border-radius: 30px;
-    padding: 15px 30px;
-}
-
-.more{
-    color: #6e7ea9;
-    font-size: 16px;
-    background-color: #d3def5;
-    border-radius: 30px;
-    padding: 15px 30px;
-}
 .grid h2{
     font-size: 40px;
     font-weight: 700;
@@ -94,3 +116,37 @@ h2{
 .sponsor li{
     display: inline;
 }
+
+.btn-group button+button{
+    margin-left: 15px;
+}
+
+.btn-info{
+    color: #8085b1;
+    background-color: transparent;
+    border: 1px solid #dce1e5;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    padding: 21px 42px;
+    border-radius: 30px;
+}
+
+.btn-info:hover{
+    background-color: #dce1e5;
+}
+
+.btn-info-active{
+    color: #8085b1;
+    background-color: transparent;
+    border: 1px solid #dce1e5;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    padding: 21px 42px;
+    border-radius: 30px;
+
+}
+
